@@ -1,1 +1,1 @@
-# leetcode written in python
+# leetcode solutions written in python
