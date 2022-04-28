@@ -17,6 +17,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    nums = [3, 1, 2, 4]
+    nums = [3, 1, 2, 4, 5, 6, 7, 2, 4, 2]
     s = Solution()
     print(s.sortArrayByParity(nums))
