@@ -36,4 +36,7 @@ class Solution(object):
 if __name__ == '__main__':
     s = Solution()
     board = [[0, 1, 0], [0, 0, 1], [1, 1, 1], [0, 0, 0]]
-    print(s.gameOfLife(board))
+    res1 = s.gameOfLife(board)
+    print(res1)
+    res2 = s.gameOfLife(res1)
+    print(res2)
