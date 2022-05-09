@@ -13,7 +13,7 @@ class Solution:
             else:
                 perm[i] = high
                 high -= 1
-        perm[n] = high  # 最后剩下一个数，此时 low == high
+        perm[n] = low  # 最后剩下一个数，此时 low == high
         return perm
 
 
